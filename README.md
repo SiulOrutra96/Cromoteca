@@ -5,9 +5,9 @@ Página Gay
 
 1. Hacer fork del repositorio original (SiulOrutra96/Cromoteca)
 2. Clonar el tú fork 
-    git clone [link de tu fork]
+    <<git clone [link de tu fork]>>
 3. Agregar el remoto 
-    git remote add remoto https://github.com/SiulOrutra96/Cromoteca.git
+    <<git remote add remoto https://github.com/SiulOrutra96/Cromoteca.git>>
 
 # Par bajar camios
 
@@ -16,9 +16,9 @@ git pull remoto master
 # Para hacer los commits
 
 1. Agregar los archivos al commit
-    git add .
+    <<git add .>>
 2. Commitear los cambios con un mensaje
-    git commit -m "[mensaje]"
+    <<git commit -m "[mensaje]">>
     
 # Para subir cambios
 
