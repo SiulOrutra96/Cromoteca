@@ -11,8 +11,8 @@ Página Gay
 
 # Par bajar camios
 
-1. Para el repositorio remoto <<git pull remoto master>>
-2. Para tu repositorio personal <<git pull origin master>>
+1. Para el repositorio remoto << git pull remoto master >>
+2. Para tu repositorio personal << git pull origin master >>
 
 # Para hacer los commits
 
