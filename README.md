@@ -23,8 +23,8 @@ Página Gay
     
 # Para subir cambios
 
-1. Para el repositorio remoto <<git push remoto master>>
-2. Para tu repositorio personal <<git push origin master>>
+1. Para el repositorio remoto << git push remoto master >>
+2. Para tu repositorio personal << git push origin master >>
 
 # Tags para los commits
 
