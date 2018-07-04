@@ -9,7 +9,7 @@ Página Gay
 3. Agregar el remoto 
     <<git remote add remoto https://github.com/SiulOrutra96/Cromoteca.git>>
 
-# Par bajar camios
+# Par bajar cambios
 
 1. Para el repositorio remoto << git pull remoto master >>
 2. Para tu repositorio personal << git pull origin master >>
