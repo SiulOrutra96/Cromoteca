@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Responsive Sticky Navbar</title>
+      <link rel="stylesheet" href="css/styleM.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                       
+                        
+
+                        <div class="menu">
+                              <ul class="nav">
+                                    <li><a href="conocenos.html">Conócenos</a>
+                                           <ul id="sub">
+                                              <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
+                                        </ul>  
+                                    </li>
+                                       
+                                    <li><a href="servicios.html">Servicios</a>
+                                          <ul id="sub">
+                                              <li><a href="daya.html">Daya</a></li>
+                                              <li><a href="talleres.html">Talleres</a></li>
+                                              <li><a href="exclusivo.html">Exclusivos</a></li>
+                                              <li><a href="cafe.html">Café Mil Aromas</a></li>            
+                                          </ul>  
+                                    </li>
+                                        
+
+                                    <a href="index.html"><img id='logo' src='img/logo.png'></a>
+
+                                    <li><a href="interesante.html">Interesante</a>
+                                              <ul id="sub">
+                                              <li><a href="salud.html">salud</a></li></ul>
+                                    </li>
+                                    <li><a href="contactos.html">Contáctanos</a>
+                                          <ul id="sub">
+                                              <li><a href="mensajes.html">Mensajes</a></li>
+                                              <li><a href="citas.html">Citas</a></li>
+                                          </ul>  
+                                    </li>
+                                          
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+           
+      </div>
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>
