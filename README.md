@@ -4,14 +4,15 @@ Página Gay
 # Para clonar el repositorio
 
 1. Hacer fork del repositorio original (SiulOrutra96/Cromoteca)
-2. Clonar el tú fork 
+2. Clonar el tu fork 
     <<git clone [link de tu fork]>>
 3. Agregar el remoto 
     <<git remote add remoto https://github.com/SiulOrutra96/Cromoteca.git>>
 
 # Par bajar camios
 
-git pull remoto master
+1. Para el repositorio remoto <<git pull remoto master>>
+2. Para tu repositorio personal <<git pull origin master>>
 
 # Para hacer los commits
 
@@ -22,7 +23,8 @@ git pull remoto master
     
 # Para subir cambios
 
-git push remoto master
+1. Para el repositorio remoto <<git push remoto master>>
+2. Para tu repositorio personal <<git push origin master>>
 
 # Tags para los commits
 
